@@ -1,0 +1,47 @@
+main() {
+	
+	setlocale(LC_ALL,"Portuguese");
+	
+	float v1,v2,v3,v4,media;
+	
+	printf("digite o primeiro valor");
+	scanf("%f",&v1); 
+	
+	printf("digite o Segundo valor");
+	scanf("%f",&v2);
+	
+	printf("digite o terceiro valor");
+	scanf("%f",&v3); 
+	
+	printf("digite o quarta valor");
+	scanf("%f",&v4);
+	
+	media = (v1 + v2 + v3 + v4)/4;
+	
+	printf ("Nota 1 = %.2f \n Nota 2 = %.2f \n Nota 3 = %.2f \n Nota 4 = %.2f Media dos valores = %f    ",v1,v2,v3,v4,media);
+  
+  
+  
+  ------------------------------------------------------------------------------------
+  ]
+  
+main(){
+	
+	setlocale(LC_ALL,"Portuguese");
+	int v1, v2;
+	
+	printf ("Digite o valor 1 = ");
+	scanf ("%i",&v1);
+	
+	printf ("Digite o valor 2 = ");
+	scanf ("%i",&v2);
+	
+	
+	printf ("Resultado da soma  entre %i + %i = %i\n" ,v1,v2,v1+v2);
+	printf ("Resultado da subitracao  entre %i - %i = %i\n" ,v1,v2,v1+-v2);
+    printf ("Resultado da divisao  entre %i / %i = %i\n" ,v1,v2,v1/v2);
+	printf ("Resultado da multiplicacao  entre %i * %i = %i\n" ,v1,v2,v1*v2);
+	
+	
+	
+}
